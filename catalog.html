@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>catalog</title>
+  <meta charset="UTF-8">
+  <link href="Fonts/Helvetica Neue/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link rel="shortcut icon" href="IMG/Adress Logo.png" type="Image/png">
+  <link rel="stylesheet" href="Style2.css">
+</head>
+
+<body>
+  <section id="section-header">
+    <header class="site-header">
+      <div class="container header-container">
+        <a href="/Главная страница/Index.html" class="logo">
+          <img src="images/IMG2/Logo.png" alt="Logo">
+        </a>
+        <div class="search-bar">
+          <input type="text" placeholder="Поиск">
+        </div>
+        <nav class="main-nav">
+          <ul>
+            <li><a href="#section-main">О нас</a></li>
+            <li><a href="#section-main">Блог</a></li>
+            <li><a href="#section-main">Отзывы</a></li>
+            <li><a href="#section-main">Каталог</a></li>
+            <li><a href="/Главная страница/Basket.html">Корзина</a></li>
+            <li><a href="#section-footer">Контакты</a></li>
+          </ul>
+        </nav>
+        <a href="#" class="user-profile">
+          <img src="images/IMG2/User Profile.svg" alt="User Profile">
+        </a>
+      </div>
+    </header>
+  </section>
+
+  <section id="section-main" class="main-content">
+    <div class="container main-container">
+      <aside class="sidebar">
+        <h2 class="sidebar-title">Фильтры</h2>
+
+        <div class="filter-group">
+          <h3 class="filter-title">Цена</h3>
+          <div class="price-inputs">
+            <input type="text" class="price-input" placeholder="000.000₽">
+            <input type="text" class="price-input" placeholder="000.000₽">
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="filter-group">
+          <h3 class="filter-title">Компания</h3>
+          <div class="checkbox-list">
+            <label class="checkbox-item"><input type="checkbox"><span>Sony</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Canon</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Nikon</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Leica</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Xiaomi</span></label>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="filter-group">
+          <h3 class="filter-title">Категория</h3>
+          <div class="checkbox-list">
+            <label class="checkbox-item"><input type="checkbox"><span>Зеркальные</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Беззеркальные</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Плёночные</span></label>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="filter-group">
+          <h3 class="filter-title">Сроки доставки</h3>
+          <div class="checkbox-list">
+            <label class="checkbox-item"><input type="radio" name="delivery"><span>От 1 часа</span></label>
+            <label class="checkbox-item"><input type="radio" name="delivery"><span>Сегодня</span></label>
+            <label class="checkbox-item"><input type="radio" name="delivery"><span>Завтра</span></label>
+            <label class="checkbox-item"><input type="radio" name="delivery"><span>До 3-х дней</span></label>
+            <label class="checkbox-item"><input type="radio" name="delivery"><span>До 5 дней</span></label>
+            <label class="checkbox-item"><input type="radio" name="delivery"><span>До 7 дней</span></label>
+          </div>
+        </div>
+
+        <hr class="divider">
+
+        <div class="filter-group">
+          <h3 class="filter-title">Цвет</h3>
+          <div class="checkbox-list">
+            <label class="checkbox-item"><input type="checkbox"><span>Белый</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Черный</span></label>
+            <label class="checkbox-item"><input type="checkbox"><span>Бежевый</span></label>
+          </div>
+        </div>
+
+        <button class="btn-all-filters">Все фильтры</button>
+      </aside>
+
+      <main class="catalog">
+        <h1 class="catalog-title">Каталог</h1>
+        <div class="catalog-tabs">
+          <a href="#" class="tab active">Камеры</a>
+          <a href="#" class="tab">Объективы</a>
+          <a href="#" class="tab">Плёнки</a>
+          <a href="#" class="tab">Стабилизаторы</a>
+          <a href="#" class="tab">Слайдеры</a>
+        </div>
+
+        <div class="product-grid">
+          <div class="product-card">
+            <a href="/Главная страница/Product page.html">
+            <div class="product-image">
+                <img src="images/IMG2/Sony ZV-E10.png" alt="Sony ZV-E10 Standard Kit">
+            </div>
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Sony ZV-E10 Standard Kit</h3>
+              <div class="product-rating">
+                <img src="images/IMG2/Rating.svg" alt="Rating">
+                <span class="reviews-count">35 отзывов</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">64.000 ₽</span>
+                <span class="old-price">95.000 ₽</span>
+              </div>
+            </div>
+            <a href="/Главная страница/Basket.html">
+            <button class="btn-buy">Купить</button>
+            </a>
+          </div>
+
+          <div class="product-card">
+            <a href="/Главная страница/Product page.html">
+            <div class="product-image">
+              <img src="images/IMG2/Canon.png" alt="Canon PowerShot G7X Mark III">
+            </div>
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Canon PowerShot G7X Mark III</h3>
+              <div class="product-rating">
+                <img src="images/IMG2/Rating.svg" alt="Rating">
+                <span class="reviews-count">18 отзывов</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">114.990 ₽</span>
+                <span class="old-price">144.990 ₽</span>
+              </div>
+            </div>
+            <a href="/Главная страница/Basket.html">
+            <button class="btn-buy">Купить</button>
+            </a>
+          </div>
+
+          <div class="product-card">
+            <a href="/Главная страница/Product page.html">
+            <div class="product-image">
+              <img src="images/IMG2/Kamerar SLD-230 MKII-Photoroom.png" alt="Kamerar SLD-230 MKII">
+            </div>
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Kamerar SLD-230 MKII</h3>
+              <div class="product-rating">
+                <img src="images/IMG2/Rating.svg" alt="Rating">
+                <span class="reviews-count">12 отзывов</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">11.000 ₽</span>
+                <span class="old-price">22.000 ₽</span>
+              </div>
+            </div>
+            <a href="/Главная страница/Basket.html">
+            <button class="btn-buy">Купить</button>
+            </a>
+          </div>
+
+          <div class="product-card">
+            <a href="/Главная страница/Product page.html">
+            <div class="product-image">
+              <img src="images/IMG2/Canon EF 70-200mm f2.8L IS II USM.png" alt="Canon EF 70-200mm f2.8L IS II USM">
+            </div>
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">Canon EF 70-200mm f2.8L IS II USM</h3>
+              <div class="product-rating">
+                <img src="images/IMG2/Rating.svg" alt="Rating">
+                <span class="reviews-count">3 отзывов</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">116.990 ₽</span>
+                <span class="old-price">182.990 ₽</span>
+              </div>
+            </div>
+            <a href="/Главная страница/Basket.html">
+            <button class="btn-buy">Купить</button>
+            </a>
+          </div>
+
+          <div class="product-card">
+            <a href="/Главная страница/Product page.html">
+            <div class="product-image">
+              <img src="images/IMG2/liford Delta 400 135-36.png" alt="liford Delta 400 135-36">
+            </div>
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">liford Delta 400 135-36</h3>
+              <div class="product-rating">
+                <img src="images/IMG2/Rating.svg" alt="Rating">
+                <span class="reviews-count">25 отзывов</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">1.890 ₽</span>
+                <span class="old-price">2.160 ₽</span>
+              </div>
+            </div>
+            <a href="/Главная страница/Basket.html">
+            <button class="btn-buy">Купить</button>
+            </a>
+          </div>
+
+          <div class="product-card">
+            <a href="/Главная страница/Product page.html">
+            <div class="product-image">
+              <img src="images/IMG2/Stabilizer DJI.png" alt="DJI RS 4 mini-Photoroom">
+            </div>
+            </a>
+            <div class="product-info">
+              <h3 class="product-name">DJI RS 4 mini</h3>
+              <div class="product-rating">
+                <img src="images/IMG2/Rating.svg" alt="Rating">
+                <span class="reviews-count">63 отзывов</span>
+              </div>
+              <div class="product-price">
+                <span class="current-price">40.500 ₽</span>
+                <span class="old-price">51.160 ₽</span>
+              </div>
+            </div>
+            <a href="/Главная страница/Basket.html">
+            <button class="btn-buy">Купить</button>
+            </a>
+          </div>
+        </div>
+      </main>
+    </div>
+  </section>
+  <section id="section-footer">
+    <footer class="site-footer">
+      <div class="container footer-container">
+        <div class="social-links">
+          <a href="#" class="social-link">
+            <img src="images/IMG2/VK.svg" alt="VK">
+            <span>Сообщество в ВК</span>
+          </a>
+          <a href="#" class="social-link">
+            <img src="images/IMG2/Telegram.svg" alt="Telegram">
+            <span>Блог в Телеграмме</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+  </section>
+</body>
+
+</html>
